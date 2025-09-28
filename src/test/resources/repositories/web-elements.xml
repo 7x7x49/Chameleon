@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages xmlns="http://chameleon.ibs-qa.ru/schema/web-elements">
+    <Page name="Главная страница">
+        <Page name="Регистрация">
+            <TextInput name="Имя"/>
+            <TextInput name="Фамилия"/>
+            <TextInput name="E-Mail"/>
+            <TextInput name="Пароль"/>
+            <Button name="Продолжить"/>
+            <CheckBox name="Privacy Policy"/>
+        </Page>
+    </Page>
+</Pages>

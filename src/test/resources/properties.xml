@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Properties xmlns="http://chameleon.ibs-qa.ru/schema/properties">
+    <CheckBox name="delayStep" label="Замедление выпопнения тестов" defaultValue="true"/>
+    <CheckBox name="incognito" label="Запускaть бpaузер в режиме инкогнито" defaultValue="false"/>
+    <Text name="applicationUrl" defaultValue="http://217.74.37.176/?route=account/register&amp;language=ru-ru"/>
+</Properties>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+    <Page name="Страница регистрации">
+        <Element name="Поле Имя">
+            <Locator>css=input[name='firstname']</Locator>
+        </Element>
+        <Element name="Поле Фамилия">
+            <Locator>css=input[name='lastname']</Locator>
+        </Element>
+        <Element name="Поле E-Mail">
+            <Locator>css=input[name='email']</Locator>
+        </Element>
+        <Element name="Поле Пароль">
+            <Locator>css=input[name='password']</Locator>
+        </Element>
+        <Element name="Чекбокс согласия">
+            <Locator>name=agree</Locator>
+        </Element>
+        <Element name="Кнопка Продолжить">
+            <Locator>xpath=//button[normalize-space()='Продолжить']</Locator>
+        </Element>
+    </Page>
+</Elements>
